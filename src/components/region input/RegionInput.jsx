@@ -27,6 +27,7 @@ const RegionInput = () => {
       >
 
         <option value="" selected disabled hidden>
+          select a region
 
         </option>
         <option value="Europe">Europe</option>

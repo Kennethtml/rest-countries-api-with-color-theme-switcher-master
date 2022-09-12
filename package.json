@@ -1,5 +1,4 @@
 {
-  "homepage": "http://kennethtml.github.io/rest-countries-api-with-color-theme-switcher-master",
   "name": "rest-countries-api",
   "version": "0.1.0",
   "private": true,
@@ -18,8 +17,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run nuild",
-    "deploy":"gh-pages -d bulid",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
