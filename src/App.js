@@ -8,10 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import CountryPage from "./components/CountryPage/CountryPage";
 
 function App() {
-<<<<<<< HEAD
-=======
 
->>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6
   const { countryData, setCountryData, region, setRegion, theme } =
     useContext(CountriesContext);
 
@@ -24,11 +21,7 @@ function App() {
     console.log("just mounted");
   }, []);
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6
   useEffect(() => {
     if (region !== "") {
       fetch(`https://restcountries.com/v3.1/region/${region}`)
@@ -44,11 +37,7 @@ function App() {
     }
   }, [region]);
 
-<<<<<<< HEAD
-=======
-  
 
->>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6
   return (
     <>
       <div className="container" style={theme}>
