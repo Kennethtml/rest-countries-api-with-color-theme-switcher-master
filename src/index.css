@@ -1,16 +1,47 @@
+<<<<<<< HEAD
 
+=======
+:root{
+
+}
+>>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
+=======
+body{
+  
+}
+>>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6
 
 
 
 .container{
+<<<<<<< HEAD
 
+=======
+     /* --Dark-Blue: hsl(209, 23%, 22%);
+--Very-Dark-Blue : hsl(207, 26%, 17%);
+--text-Blue: hsl(200, 15%, 8%);
+--Dark-Gray: hsl(0, 0%, 52%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+--White: hsl(0, 0%, 100%);
+
+--ff-Nunito: 'Nunito Sans', sans-serif;
+
+--clr-primary-darkt:var( --Dark-Blue);
+--clr-secondary-dark:var(--Very-Dark-Blue);
+
+
+--clr-primary-light:var(--Very-Light-Gray: hsl(0, 0%, 98%));
+--clr-secondary-light:var(--Dark-Gray);
+--box-shadow-light:0 .2px  3px var(--clr-secondary-light); */
+>>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6
 
 font-family: var(--ff-Nunito);
 color:var(--text-clr);

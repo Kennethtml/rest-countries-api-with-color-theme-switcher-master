@@ -25,7 +25,11 @@ const RegionInput = () => {
         onChange={handleChange}
         value={region}
       >
+<<<<<<< HEAD:src/components/region input/RegionInput.jsx
         <option value=""  selected>
+=======
+        <option value="" selected disabled hidden>
+>>>>>>> f37121f9fa5998711704ae0fe8762cc119c6f0b6:src/components/RegionInput.jsx
           Filter by region
         </option>
         <option value="Europe">Europe</option>
