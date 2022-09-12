@@ -1,27 +1,30 @@
-:root{
-  --Dark-Blue: hsl(209, 23%, 22%);
---Very-Dark-Blue : hsl(207, 26%, 17%);
---Very-Dark-Blue: hsl(200, 15%, 8%);
---Dark-Gray: hsl(0, 0%, 52%);
---Very-Light-Gray: hsl(0, 0%, 98%);
---White: hsl(0, 0%, 100%);
---box-shadow-light:0 .2px  3px var(--Dark-Gray);
---ff-Nunito: 'Nunito Sans', sans-serif;
-}
+
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: var(--ff-Nunito);
+
+
+
+
+.container{
+
+
+font-family: var(--ff-Nunito);
+color:var(--text-clr);
+
+}
+.body{
+  min-height: 100vh;
+  padding: 20px;
 }
 .container{
   max-width: 1440px;
   min-height: 80vh;
-  background-color: var(--Very-Light-Gray);
-  padding: 30px;
+  background-color: var(--clr-primary);
+ 
    /* display: flex;
   justify-content: space-between;
   align-items: center; */
@@ -30,15 +33,20 @@ body{
   display:flex;
   align-items: center;
   justify-content: space-between;
-  padding:20px;
+  padding:30px 20px;
   position: relative;
-  box-shadow:   var(--box-shadow-light);
+  box-shadow:   var(--box-shadow);
+ background-color:var(--clr-secondary);
 }
 .Navbar h2{
-  font-size: 20px;
-  text-transform: uppercase;
+  font-size: 16px;
+  /* text-transform: uppercase; */
   font-weight: 500;
 
+}
+a{
+  color:var(--text-clr);
+  text-decoration: none;
 }
 
 
@@ -50,10 +58,11 @@ body{
 .country-card{
 /* border: 1px solid grey; */
 overflow: hidden;
-box-shadow: var(--box-shadow-light);
+box-shadow: var(--box-shadow);
 display: flex;
 flex-direction: column;
 border-radius: 5px;
+background-color:var(--clr-secondary);
 }
 
 .country-card img{

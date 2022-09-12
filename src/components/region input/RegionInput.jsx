@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState ,useEffect} from 'react'
 import { useContext } from 'react'
-import { CountriesContext } from '../countries-context'
+import { CountriesContext } from '../../countries-context'
 
 const RegionInput = () => {
     const{region,setRegion}=useContext(CountriesContext)
@@ -16,12 +16,22 @@ const RegionInput = () => {
 
      
   return (
-    <div>
-      <select name="region" id="region" onChange={handleChange} value={region}>
-        <option value=""></option>
+    <div className='select-input-container'>
+      
+      <select
+        name="region"
+        id="region"
+        className="select-input"
+        onChange={handleChange}
+        value={region}
+      >
+        <option value=""  selected>
+          Filter by region
+        </option>
         <option value="Europe">Europe</option>
         <option value="Africa">Africa</option>
         <option value="Americas">Americas</option>
+        <option value="">All</option>
       </select>
     </div>
   );

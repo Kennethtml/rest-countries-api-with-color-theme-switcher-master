@@ -1,14 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useContext, useState, useEffect } from "react";
-import { CountriesContext } from "../countries-context";
-import CountryDetails from "./CountryDetails";
+import { CountriesContext } from "../../countries-context";
+import CountryDetails from "../Country details/CountryDetails";
 
 const CountryPage = () => {
   const countryCategory = useParams();
   const [selectedCountry, setSelectedCountry] = useState([]);
 
   useEffect(() => {
+
+    
     fetch(
       `https://restcountries.com/v2/name/${countryCategory.country}?fullText=true`
     )

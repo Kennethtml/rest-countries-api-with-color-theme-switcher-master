@@ -1,6 +1,6 @@
 import { useContext,useState,useEffect } from "react";
 import { CountriesContext } from "../../countries-context";
-import CountryCard from "../Country-card";
+import CountryCard from "../Country-card/Country-card";
 
 const CountryList = () => {
   const { countryData,formInput,region} = useContext(CountriesContext);
